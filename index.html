@@ -1,39 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aegis Security</title>
+
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-  <h1>Aegis</h1>
-  <div>
-    <a href="#services">Serviços</a>
-    <a href="#login">Login</a>
-  </div>
-</nav>
+  <main class="container">
 
-<section class="hero">
-  <h2>AEGIS SECURITY</h2>
-  <p>Proteção. Monitoramento. Controle.</p>
-  <button onclick="scrollToLogin()">Acessar painel</button>
-</section>
+    <section class="hero">
+      <span class="badge">🛡️ Segurança Discord</span>
 
-<section id="services" class="cards">
-  <div class="card">🛡️ Proteção de sistemas</div>
-  <div class="card">👁️ Monitoramento 24/7</div>
-  <div class="card">⚡ Resposta rápida</div>
-</section>
+      <h1>Aegis Security</h1>
 
-<section id="login" class="login-box">
-  <h3>Login</h3>
-  <input type="text" placeholder="Usuário">
-  <input type="password" placeholder="Senha">
-  <button onclick="login()">Entrar</button>
-</section>
+      <p>
+        Proteção avançada, automação inteligente e controle total  
+        para manter seu servidor seguro 24/7.
+      </p>
 
-<script src="script.js"></script>
+      <div class="buttons">
+        <a href="#"
+           class="btn primary">
+          ➕ Adicionar ao Servidor
+        </a>
+
+        <a href="#"
+           class="btn secondary">
+          📊 Painel (em breve)
+        </a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        ⚡ Anti-Raid automático
+      </div>
+      <div class="feature">
+        🔒 Logs de segurança em tempo real
+      </div>
+      <div class="feature">
+        🤖 Moderação inteligente
+      </div>
+      <div class="feature">
+        🧠 Sistema Premium (VIP)
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Aegis Security • Todos os direitos reservados
+    </footer>
+
+  </main>
+
 </body>
 </html>
