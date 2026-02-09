@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <title>Aegis Security</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Aegis Security</h1>
-  <p>Site em construção.</p>
+
+<nav>
+  <h1>Aegis</h1>
+  <div>
+    <a href="#services">Serviços</a>
+    <a href="#login">Login</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h2>AEGIS SECURITY</h2>
+  <p>Proteção. Monitoramento. Controle.</p>
+  <button onclick="scrollToLogin()">Acessar painel</button>
+</section>
+
+<section id="services" class="cards">
+  <div class="card">🛡️ Proteção de sistemas</div>
+  <div class="card">👁️ Monitoramento 24/7</div>
+  <div class="card">⚡ Resposta rápida</div>
+</section>
+
+<section id="login" class="login-box">
+  <h3>Login</h3>
+  <input type="text" placeholder="Usuário">
+  <input type="password" placeholder="Senha">
+  <button onclick="login()">Entrar</button>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
